@@ -6,7 +6,7 @@
 
 // Code Here
 
-let groceries = ['milk', 'eggs', 'vodka']
+let groceries = ['milk', 'eggs', 'pita']
 
 //////////////////STEP 2////////////////////
 //Create a variable called 'yourName' that is equal to your name as a string
