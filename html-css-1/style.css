@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    color: #fff;
+    padding: .5em;
+    align-content: center;
+    
+}
+
+
+
+.menu{
+    display: flex;
+    align-content: center;
+}
+
+.menu > p{
+    padding: 0 1em;
+}
+
+.topBody{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+    font-size: 2em;
+}
+
+.secondBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+}
+
+.secondBody *{
+    background-color: lightgreen;
+    /* flex-grow: 1; */
+    height: 20em;
+    width: 20em;
+    border-radius: 10px;
+}
+
+.thirdBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.thirdBody *{
+    background-color: orange;
+    flex-grow: 1;
+    height: 20em;
+    margin: 2em;
+}
+
+.fourthBody{
+    display: flex;
+    padding: 4em;
+    justify-content: space-between;
+    
+}
+
+.fourthBody * {
+    margin: 0 8em;
+    height: 20em;
+    flex-grow: 1;
+}
+
+.fourthBody > p {
+    width: 80em;
+}
+
+#img{
+    width: 80em;
+    background-position: center bottom;
+    background-image: url("https://c402277.ssl.cf1.rackcdn.com/photos/11552/images/hero_full/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623");
+    background-size: cover;
+
+}
+
+footer{
+    background-color: darkslateblue;
+    height: 10vh;
+}
